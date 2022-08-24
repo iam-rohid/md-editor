@@ -15,19 +15,19 @@ const SidebarLink: React.FC<SidebarLinkProps> = ({
   return (
     <Link {...linkProps}>
       {({ isActive }) => (
-        <div className="pb-px">
+        <div className="py-px">
           <div
             className={clsx(
               "flex items-center px-2 py-1 gap-2 rounded-md",
               {
-                "bg-neutral-200 dark:bg-neutral-700": isActive,
+                "bg-priamry-500 dark:bg-priamry-500 text-white": isActive,
                 "hover:bg-neutral-200/50 dark:hover:bg-neutral-700/50 active:bg-neutral-200 dark:active:bg-neutral-700":
                   !isActive,
               },
               className
             )}
           >
-            <span className="text-xl">{icon}</span>
+            <span className="text-2xl">{icon}</span>
             <p className="flex-1 truncate">{label}</p>
           </div>
         </div>

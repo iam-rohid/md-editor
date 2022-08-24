@@ -9,3 +9,4 @@ export * from "./SettingsIcon";
 export * from "./StarIcon";
 export * from "./TagItem";
 export * from "./TrashIcon";
+export * from "./RecentIcon";
