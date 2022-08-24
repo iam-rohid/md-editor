@@ -1,4 +1,4 @@
 {
   "extends": "@mde/config/react.tsconfig.json",
-  "include": ["src"]
+  "include": ["src", "styles"]
 }

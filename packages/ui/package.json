@@ -6,7 +6,7 @@
   "exports": {
     ".": "./src/index.ts",
     "./types": "./src/types",
-    "./tailwind": "./src/styles/tailwind.js",
+    "./tailwind": "./styles/tailwind.js",
     "./assets/*": "./src/assets/*",
     "./screens/*": "./src/screens/*",
     "./components/*": "./src/components/*"
