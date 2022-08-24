@@ -1,5 +1,5 @@
 {
-  "name": "desktop",
+  "name": "@mde/desktop",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -16,6 +16,7 @@
     "@tauri-apps/api": "^1.0.2"
   },
   "devDependencies": {
+    "@mde/config": "*",
     "@types/node": "^18.7.10",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",

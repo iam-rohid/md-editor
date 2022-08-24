@@ -1,0 +1,12 @@
+{
+  "name": "@mde/config",
+  "version": "0.0.0",
+  "main": "index.js",
+  "private": true,
+  "license": "MIT",
+  "files": [
+    "base.tsconfig.json",
+    "next.tsconfig.json",
+    "react.tsconfig.json"
+  ]
+}
