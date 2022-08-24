@@ -1,5 +1,4 @@
 {
   "extends": "@mde/config/react.tsconfig.json",
-  "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src"]
 }
