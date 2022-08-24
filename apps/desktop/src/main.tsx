@@ -1,8 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import AppInterface from "@mde/ui";
 
 const App = () => {
-  return <h1>Hello Desktop</h1>;
+  return (
+    <>
+      <AppInterface />
+    </>
+  );
 };
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
