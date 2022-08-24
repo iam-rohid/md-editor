@@ -4,9 +4,12 @@
   "main": "index.js",
   "private": true,
   "license": "MIT",
-  "files": [
-    "base.tsconfig.json",
-    "next.tsconfig.json",
-    "react.tsconfig.json"
-  ]
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.34.0",
+    "@typescript-eslint/parser": "^5.34.0",
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
 }

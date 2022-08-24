@@ -9,11 +9,15 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
+    "desktop:dev": "pnpm --filter @mde/desktop -- tauri dev",
+    "web:dev": "pnpm --filter @mde/web -- dev",
+    "landing:dev": "pnpm --filter @mde/landing -- dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "clean": "turbo run clean && rimraf node_modules"
   },
   "devDependencies": {
+    "@mde/config": "*",
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
     "turbo": "^1.4.3"
